@@ -28,16 +28,23 @@
         float: left;
         padding: 20px;
       }
-      .awards li::before {
+      .awards li::before, .clients li:before {
         content: '';
       }
+      .clients li{
+        font-size: small;
+      }
+      .clients li img{
+        max-height: 40px;
+        display: block;
+      }
       .noBorder{
-        padding: 0 !important;
+        padding: 35px 0 0 45px !important;
       }
       .noBorder img{
         margin: 0;
         padding: 0;
-        width: 274px;
+        width: 200px;
         border: none;
         float: left
       }
@@ -121,6 +128,17 @@
           </li>
         </ul>
       </article>
+      <article class="clients">
+        <h3>Em 2.5 meses, já entregamos projetos para:</h3>
+        <ul class="build">
+          <li><img src="images/clients/repense.png"> Repense</li>
+          <li><img src="images/clients/websolucoes.png">Web Soluções</li>
+          <li><img src="images/clients/wkLogo.gif">WK</li>
+          <li><img src="images/clients/ithink.png">iThink</li>
+          <li><img src="images/clients/dpz.jpg">DPZ</li>
+          <li><img src="images/clients/jwt.png">JWT</li>
+        </ul>
+      </article>
       <article>
         <h3>Quando nos chamar?</h3>
         <ul class="build">
@@ -129,17 +147,6 @@
             <li>Conhecemos o que você não precisa conhecer</li>
             <li>Para fazer seu job caber no budget</li>
             <li>e no prazo</li>
-        </ul>
-      </article>
-      <article>
-        <h3>Em 2.5 meses, já entregamos projetos para:</h3>
-        <ul class="build">
-          <li>Repense</li>
-          <li>Web Soluções</li>
-          <li>WK</li>
-          <li>iThink</li>
-          <li>DPZ</li>
-          <li>JWT</li>
         </ul>
       </article>
       <article style="text-align: center">
