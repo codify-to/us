@@ -1,0 +1,8 @@
+# OSX
+.DS_Store
+*.pbxuser
+profile
+
+# Sublime project files
+*.sublime-project
+*.sublime-workspace
