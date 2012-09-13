@@ -1,8 +1,11 @@
 # OSX
 .DS_Store
-*.pbxuser
-profile
 
-# Sublime project files
-*.sublime-project
-*.sublime-workspace
+# Ignore bundler config
+/.bundle
+
+# Ignore the build directory
+/build
+
+# Ignore Sass' cache
+/.sass-cache
