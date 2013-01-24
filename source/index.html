@@ -217,6 +217,8 @@
 		
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.min.js"></script>
+		<script src="js/reconnecting-websocket.js"></script>
+		<script src="js/tracking.js"></script>
 
 		<script>
 			
@@ -239,6 +241,8 @@
 					{ src: 'plugin/speakernotes/client.js', async: true, condition: function() { return window.location.host === 'localhost:1947'; } },
 				]
 			});
+
+			Tracking.init();
 			
 		</script>
 
