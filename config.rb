@@ -46,6 +46,9 @@
 #     "Helping"
 #   end
 # end
+# 
+
+activate :livereload
 
 set :css_dir, 'stylesheets'
 
